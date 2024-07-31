@@ -1,0 +1,64 @@
+{
+  "_from": "couchdb-export",
+  "_id": "couchdb-export@1.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-YOOmvm4tOE31Zq7cKqAskmfhOty0f1uoIUtf/GWktLyqZEj+ab7VGvWbmqQ358s5SjBfkkeykcrXMXAaGNPqmQ==",
+  "_location": "/couchdb-export",
+  "_phantomChildren": {
+    "color-convert": "1.9.3",
+    "decamelize": "1.2.0",
+    "emoji-regex": "7.0.3",
+    "locate-path": "3.0.0",
+    "require-directory": "2.1.1",
+    "set-blocking": "2.0.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "couchdb-export",
+    "name": "couchdb-export",
+    "escapedName": "couchdb-export",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/couchdb-export/-/couchdb-export-1.0.9.tgz",
+  "_shasum": "956d94c95e63499607d82890f4a11bec763e36fb",
+  "_spec": "couchdb-export",
+  "_where": "/home/veto/webs/pm",
+  "author": {
+    "name": "Veto",
+    "email": "veto@myrida.com"
+  },
+  "bin": {
+    "couchdb-export": "./index.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "memorystream": "^0.3.1",
+    "pouchdb": "^7.1.1",
+    "pouchdb-adapter-http": "^7.1.1",
+    "pouchdb-replication-stream": "^1.2.9",
+    "yargs": "^14.2.0"
+  },
+  "deprecated": false,
+  "description": "Dump a CouchDB database to a text file",
+  "homepage": "http://calantas.org/couchdb-export",
+  "keywords": [
+    "couchDb",
+    "dump",
+    "export",
+    "pouchdb"
+  ],
+  "license": "GPL-3.0-or-later",
+  "main": "index.js",
+  "name": "couchdb-export",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.9"
+}
